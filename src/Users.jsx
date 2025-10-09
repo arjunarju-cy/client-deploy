@@ -12,7 +12,7 @@ function Users() {
     console.log("API_BASE_URL:", API_BASE_URL); // Debug: log the backend URL
 
     axios
-      .get(`${API_BASE_URL}/`)
+      .get(`${API_BASE_URL}/users`)
       .then((result) => {
         console.log("Fetched data:", result.data); // Debug: log API response
 
